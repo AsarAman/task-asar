@@ -27,6 +27,7 @@
     "@edgio/devtools": "^6.1.0",
     "@edgio/next": "^6.1.0",
     "@edgio/prefetch": "^6.1.0",
-    "@edgio/react": "^6.1.0"
+    "@edgio/react": "^6.1.0",
+    "gh-pages": "^5.0.0"
   }
 }
