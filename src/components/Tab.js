@@ -103,7 +103,7 @@ const Aman = ({handle}) => {
                 link:<FiLink2/>,
                 count:'2',
                 date:'created 3 days ago',
-                profile:'pic.jpg',
+                profile:'/pic.jpg',
                 class1:'line-1',
                 class2:'line-2',
                 desc: 'Archieved in completed 3 days ago'
@@ -128,7 +128,7 @@ const Aman = ({handle}) => {
                 link:<FiLink2/>,
                 count:'2',
                 date:'created 3 days ago',
-                profile:'pic.jpg',
+                profile:'/pic.jpg',
                 class1:'line-1',
                 class2:'line-2',
                 desc: 'Archieved in completed 3 days ago'
@@ -153,7 +153,7 @@ const Aman = ({handle}) => {
                 link:<FiLink2/>,
                 count:'2',
                 date:'created 3 days ago',
-                profile:'pic.jpg',
+                profile:'/pic.jpg',
                 class1:'line-1',
                 class2:'line-2',
                 desc: 'Archieved in completed 3 days ago'
@@ -178,7 +178,7 @@ const Aman = ({handle}) => {
                 link:<FiLink2/>,
                 count:'2',
                 date:'created 3 days ago',
-                profile:'pic.jpg',
+                profile:'/pic.jpg',
                 class1:'line-1',
                 class2:'line-2',
                 desc: 'Archieved in completed 3 days ago'
@@ -209,7 +209,7 @@ const Aman = ({handle}) => {
                 link:<FiLink2/>,
                 count:'2',
                 date:'created 3 days ago',
-                profile:'pic.jpg',
+                profile:'/pic.jpg',
                 class1:'line-1',
                 class2:'line-2',
                 desc: 'Snoozed until Oct 24 10:00pm'
@@ -234,7 +234,7 @@ const Aman = ({handle}) => {
                 link:<FiLink2/>,
                 count:'2',
                 date:'created 3 days ago',
-                profile:'pic.jpg',
+                profile:'/pic.jpg',
                 class1:'line-1',
                 class2:'line-2',
                 desc: 'Snoozed until Oct 24 10:00pm'
@@ -259,7 +259,7 @@ const Aman = ({handle}) => {
                 link:<FiLink2/>,
                 count:'2',
                 date:'created 3 days ago',
-                profile:'pic.jpg',
+                profile:'/pic.jpg',
                 class1:'line-1',
                 class2:'line-2',
                 desc: 'Snoozed until Oct 24 10:00pm'
@@ -284,7 +284,7 @@ const Aman = ({handle}) => {
                 link:<FiLink2/>,
                 count:'2',
                 date:'created 3 days ago',
-                profile:'pic.jpg',
+                profile:'/pic.jpg',
                 class1:'line-1',
                 class2:'line-2',
                 desc: 'Snoozed until Oct 24 10:00pm'

@@ -20,7 +20,7 @@ export const backlogData=[
         description2:'url.comm',
         icon1:<BsFilter/>,
         date:'created 3 days ago',
-        profile:'pic.jpg'
+        profile:'/pic.jpg'
 
 
 
@@ -43,7 +43,7 @@ export const backlogData=[
         icon1:<BsSortDown/>,
         rating:8/9,
         date:'created 3 days ago',
-        profile:'pic.jpg'
+        profile:'/pic.jpg'
 
 
 
@@ -73,7 +73,7 @@ export const todos=[
         link:<FiLink2/>,
         count:'2',
         date:'created 3 days ago',
-        profile:'pic.jpg',
+        profile:'/pic.jpg',
         class1:'line-1',
         class2:'line-2'
 
@@ -99,7 +99,7 @@ export const todos=[
         link:<FiLink2/>,
         count:'2',
         date:'created 3 days ago',
-        profile:'pic.jpg',
+        profile:'/pic.jpg',
         class1:'line-3',
         class2:'line-2'
 
@@ -125,7 +125,7 @@ export const todos=[
         link:<FiLink2/>,
         count:'2',
         date:'created 3 days ago',
-        profile:'pic.jpg',
+        profile:'/pic.jpg',
         class1:'line-3',
         class2:'line-2'
 
@@ -152,7 +152,7 @@ export const todos=[
         link:<FiLink2/>,
         count:'2',
         date:'created 3 days ago',
-        profile:'pic.jpg',
+        profile:'/pic.jpg',
         class1:'line-3',
         class2:'line-2'
 
@@ -178,7 +178,7 @@ export const todos=[
         link:<FiLink2/>,
         count:'2',
         date:'created 3 days ago',
-        profile:'pic.jpg',
+        profile:'/pic.jpg',
         class1:'line-3',
         class2:'line-2'
 
@@ -207,7 +207,7 @@ export const progress=[
             link:<FiLink2/>,
             count:'2',
             date:'created 3 days ago',
-            profile:'pic.jpg',
+            profile:'/pic.jpg',
             
     
     
@@ -232,7 +232,7 @@ export const progress=[
             link:<FiLink2/>,
             count:'2',
             date:'created 3 days ago',
-            profile:'pic.jpg',
+            profile:'/pic.jpg',
             
     
     
@@ -257,7 +257,7 @@ export const progress=[
             link:<FiLink2/>,
             count:'2',
             date:'created 3 days ago',
-            profile:'pic.jpg',
+            profile:'/pic.jpg',
             
     
     
@@ -283,7 +283,7 @@ export const progress=[
             link:<FiLink2/>,
             count:'2',
             date:'created 3 days ago',
-            profile:'pic.jpg',
+            profile:'/pic.jpg',
             
     
     
@@ -308,7 +308,7 @@ export const progress=[
             link:<FiLink2/>,
             count:'2',
             date:'created 3 days ago',
-            profile:'pic.jpg',
+            profile:'/pic.jpg',
             
     
     
@@ -336,7 +336,7 @@ export const progress=[
             description2:'url.comm',
             icon1:<BsFilter/>,
             date:'created 3 days ago',
-            profile:'pic.jpg'
+            profile:'/pic.jpg'
     
     
     
@@ -360,7 +360,7 @@ export const progress=[
             
             
             date:'created 3 days ago',
-            profile:'pic.jpg'
+            profile:'/pic.jpg'
     
     
     
@@ -384,7 +384,7 @@ export const progress=[
             
             
             date:'created 3 days ago',
-            profile:'pic.jpg'
+            profile:'/pic.jpg'
     
     
     
@@ -408,7 +408,7 @@ export const progress=[
             
             
             date:'created 3 days ago',
-            profile:'pic.jpg'
+            profile:'/pic.jpg'
     
     
     
@@ -432,7 +432,7 @@ export const progress=[
             
             
             date:'created 3 days ago',
-            profile:'pic.jpg'
+            profile:'/pic.jpg'
     
     
     
@@ -461,7 +461,7 @@ export const progress=[
             description2:'url.comm',
             icon1:<BsFilter/>,
             date:'created 3 days ago',
-            profile:'pic.jpg'
+            profile:'/pic.jpg'
     
     
     
@@ -580,23 +580,23 @@ export const progress=[
                 {
                     id:1,
                     text:'Savanah',
-                    src:'pic.jpg'
+                    src:'/pic.jpg'
 
                 },
                 {
                     id:2,
                     text:'Wade',
-                    src:'pic.jpg'
+                    src:'/pic.jpg'
                 },
                 {
                     id:3,
                     text:'Wade',
-                    src:'pic.jpg'
+                    src:'/pic.jpg'
                 },
                 {
                     id:4,
                     text:'Jane',
-                    src:'pic.jpg'
+                    src:'/pic.jpg'
                 },
             ]
             
@@ -676,23 +676,23 @@ export const progress=[
                 {
                     id:1,
                     text:'Savanah',
-                    src:'pic.jpg'
+                    src:'/pic.jpg'
                     
                 },
                 {
                     id:2,
                     text:'Wade',
-                    src:'pic.jpg'
+                    src:'/pic.jpg'
                 },
                 {
                     id:3,
                     text:'Wade',
-                    src:'pic.jpg'
+                    src:'/pic.jpg'
                 },
                 {
                     id:4,
                     text:'Jane',
-                    src:'pic.jpg'
+                    src:'/pic.jpg'
                 },
             ]
             
@@ -727,27 +727,27 @@ export const progress=[
         {
             id:1,
             name:'Savannah',
-            profile:'pic.jpg'
+            profile:'/pic.jpg'
         },
         {
             id:2,
             name:'Russell',
-            profile:'pic.jpg'
+            profile:'/pic.jpg'
         },
         {
             id:3,
             name:'Cooper',
-            profile:'pic.jpg'
+            profile:'/pic.jpg'
         },
         {
             id:4,
             name:'Jane',
-            profile:'pic.jpg'
+            profile:'/pic.jpg'
         },
         {
             id:5,
             name:'Fisher',
-            profile:'pic.jpg'
+            profile:'/pic.jpg'
         },
     ]
 
@@ -770,7 +770,7 @@ export const progress=[
                 link:<FiLink2/>,
                 count:'2',
                 date:'created 3 days ago',
-                profile:'pic.jpg',
+                profile:'/pic.jpg',
                 class1:'line-1',
                 class2:'line-2'
         
@@ -796,7 +796,7 @@ export const progress=[
                 link:<FiLink2/>,
                 count:'2',
                 date:'created 3 days ago',
-                profile:'pic.jpg',
+                profile:'/pic.jpg',
                 class1:'line-3',
                 class2:'line-2'
         
@@ -822,7 +822,7 @@ export const progress=[
                 link:<FiLink2/>,
                 count:'2',
                 date:'created 3 days ago',
-                profile:'pic.jpg',
+                profile:'/pic.jpg',
                 class1:'line-3',
                 class2:'line-2'
         
@@ -849,7 +849,7 @@ export const progress=[
                 link:<FiLink2/>,
                 count:'2',
                 date:'created 3 days ago',
-                profile:'pic.jpg',
+                profile:'/pic.jpg',
                 class1:'line-3',
                 class2:'line-2'
         
@@ -875,7 +875,7 @@ export const progress=[
                 link:<FiLink2/>,
                 count:'2',
                 date:'created 3 days ago',
-                profile:'pic.jpg',
+                profile:'/pic.jpg',
                 class1:'line-3',
                 class2:'line-2'
         

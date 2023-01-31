@@ -12,11 +12,11 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-left">
         <div className="avatar-div">
-          <Image width={35} height={35} className="image" alt="aman" src="pic.jpg"></Image>
+          <Image width={35} height={35} className="image" alt="aman" src="/pic.jpg"></Image>
           <span className="avatar-text">15</span>
         </div>
         <div className="avatar-div">
-          <Image className="image" width={35} height35 alt="aman" src="pic.jpg"></Image>
+          <Image className="image" width={35} height={35} alt="aman" src="/pic.jpg"></Image>
           <span className="avatar-text">16</span>
         </div>
         <div className="dropdown-div">
@@ -48,7 +48,7 @@ const Navbar = () => {
         <span className="icon">
           <TbMessageCircle size={20} />
         </span>
-        <Image height={35} width={35} className="image" alt="aman" src="pic.jpg"></Image>
+        <Image height={35} width={35} className="image" alt="aman" src="/pic.jpg"></Image>
       </div>
     </nav>
   );
