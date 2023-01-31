@@ -4,7 +4,7 @@ import { BsFilter, BsSortDown } from 'react-icons/bs';
 import { BiCommentDetail } from 'react-icons/bi';
 import { FiLink2 } from 'react-icons/fi';
 import { RxCross1 } from 'react-icons/rx';
-
+import Image from 'next/image';
 
 const Tab = ({ title,content}) => (
     
@@ -36,10 +36,10 @@ const Tab = ({ title,content}) => (
            </div>
            <div className="bottom-div">
                  <span className="date">{item.date}</span>
-                 <img className="image" src={item.profile}></img>
+                 <Image width={35} height={35} className="image" alt='asar' src={item.profile}></Image>
                </div>
                <div className='tab-bottom'>
-                <img className='image' alt='asar' src={item.profile}></img>
+                <Image width={35} height={35} className='image' alt='asar' src={item.profile}></Image>
                 <span>{item.desc}</span>
                </div>
 

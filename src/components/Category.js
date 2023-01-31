@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 
 import AddButton from "./AddButton";
 import Action from "./Action";
@@ -56,7 +57,7 @@ const Category = ({ data }) => {
                 </div>
                 <div className="bottom-div">
                   <span className="date">{item.date}</span>
-                  <img className="image" alt="syed" src={item.profile}></img>
+                  <Image className="image" width={35} height={35} alt="syed" src={item.profile}></Image>
                 </div>
               </div>
             </div>

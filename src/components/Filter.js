@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { RxCross1 } from "react-icons/rx";
 
 const Filter = ({ data, handle, text }) => {
@@ -24,7 +25,8 @@ const Filter = ({ data, handle, text }) => {
                       {" "}
                       <input type="checkbox"></input>{" "}
                       {item.src && (
-                        <img className="image-2" src={item.src}></img>
+                        <Image className="image-2" width={24} alt=
+                        'image2' height={24} src={item.src}></Image>
                       )}{" "}
                       <span className={item.class2}> {item.text}</span>{" "}
                     </p>

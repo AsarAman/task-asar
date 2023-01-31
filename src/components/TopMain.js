@@ -9,6 +9,7 @@ import {
 } from "react-icons/bs";
 import { ImEmbed2 } from "react-icons/im";
 import { GiFireworkRocket } from "react-icons/gi";
+import Image from "next/image";
 
 import { CiViewBoard } from "react-icons/ci";
 import { SiPolywork } from "react-icons/si";
@@ -50,19 +51,19 @@ const TopMain = () => {
           </div>
           <div className="images-div">
             <div className="img">
-              <img className="image" alt="img" src="pic.jpg" />
+              <Image width={35} height={35} className="image" alt="img" src="pic.jpg" />
               <span className="image-text">12</span>
             </div>
             <div className="img">
-              <img className="image" alt="img" src="pic.jpg" />
+              <Image width={35} height={35} className="image" alt="img" src="pic.jpg" />
               <span className="image-text">13</span>
             </div>
             <div className="img">
-              <img className="image" alt="img" src="pic.jpg" />
+              <Image width={35} height={35} className="image" alt="img" src="pic.jpg" />
               <span className="image-text">11</span>
             </div>
             <div className="img">
-              <img className="image" alt="img" src="pic.jpg" />
+              <Image width={35} height={35} className="image" alt="img" src="pic.jpg" />
               <span className="image-text">14</span>
             </div>
           </div>

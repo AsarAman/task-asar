@@ -1,5 +1,6 @@
 import React from "react";
 import { RxCross1 } from "react-icons/rx";
+import Image from "next/image";
 
 
 const Pin = ({ data }) => {
@@ -46,7 +47,7 @@ const Pin = ({ data }) => {
               </div>
               <div className="bottom-div">
                 <span className="date">{item.date}</span>
-                <img className="image" alt="asar" src={item.profile}></img>
+                <Image width={35} height={35} className="image" alt="asar" src={item.profile}></Image>
               </div>
             </div>
           );

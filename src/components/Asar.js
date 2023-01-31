@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 
 
 import {  filter } from "@/data/data";
@@ -51,7 +52,7 @@ const Asar = ({ data, componentToPass, className }) => {
                 <span className="icon-1">{item.icon1}</span>
                 <div className="bottom-div">
                   <span className="date">{item.date}</span>
-                  <img className="image" alt="as" src={item.profile}></img>
+                  <Image className="image" width={35} height={35} alt="as" src={item.profile}></Image>
                 </div>
               </div>
             </div>

@@ -6,16 +6,17 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import { TbBulb } from "react-icons/tb";
 import { BsPlusLg } from "react-icons/bs";
 import { CiSearch } from "react-icons/ci";
+import Image from "next/image";
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
         <div className="avatar-div">
-          <img className="image" alt="aman" src="pic.jpg"></img>
+          <Image width={35} height={35} className="image" alt="aman" src="pic.jpg"></Image>
           <span className="avatar-text">15</span>
         </div>
         <div className="avatar-div">
-          <img className="image" alt="aman" src="pic.jpg"></img>
+          <Image className="image" width={35} height35 alt="aman" src="pic.jpg"></Image>
           <span className="avatar-text">16</span>
         </div>
         <div className="dropdown-div">
@@ -47,7 +48,7 @@ const Navbar = () => {
         <span className="icon">
           <TbMessageCircle size={20} />
         </span>
-        <img className="image" alt="aman" src="pic.jpg"></img>
+        <Image height={35} width={35} className="image" alt="aman" src="pic.jpg"></Image>
       </div>
     </nav>
   );
