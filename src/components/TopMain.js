@@ -13,10 +13,10 @@ import { GiFireworkRocket } from "react-icons/gi";
 import { CiViewBoard } from "react-icons/ci";
 import { SiPolywork } from "react-icons/si";
 import Sort from "./Sort";
-import { sortby, sideFil,pin } from "@/data/data";
+import { sortby, sideFil} from "@/data/data";
 import SideFil from "./SideFil";
 import ColorPicker from "./ColorPicker";
-import Pin from "./Pin";
+
 
 const TopMain = () => {
   const [open, setIsOpen] = useState(false);

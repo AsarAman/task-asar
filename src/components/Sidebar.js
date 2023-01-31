@@ -11,7 +11,7 @@ import { HiOutlineDocumentText } from "react-icons/hi";
 import { MdSegment } from "react-icons/md";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { IoIosArrowBack } from "react-icons/io";
-import { RxHamburgerMenu } from "react-icons/rx";
+
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);

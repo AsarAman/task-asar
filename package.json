@@ -1,13 +1,16 @@
 {
-  "name": "syedasaramanproject",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "name": "syedasaramanproject",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "@next/font": "13.1.5",
     "eslint": "8.32.0",
@@ -17,5 +20,13 @@
     "react-color": "^2.19.3",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1"
+  },
+  "devDependencies": {
+    "@edgio/cli": "^6.1.0",
+    "@edgio/core": "^6.1.0",
+    "@edgio/devtools": "^6.1.0",
+    "@edgio/next": "^6.1.0",
+    "@edgio/prefetch": "^6.1.0",
+    "@edgio/react": "^6.1.0"
   }
 }

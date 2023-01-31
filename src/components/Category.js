@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Work from "./Work";
+
 import AddButton from "./AddButton";
 import Action from "./Action";
 import Filter from "./Filter";
@@ -16,8 +16,8 @@ const Category = ({ data }) => {
       <div className="test parent-div">
         {data.map((item, index) => {
           return (
-            <>
-              <div key={index} className="whole-block">
+            <div key={index}>
+              <div  className="whole-block">
                 <h2>
                   {item.name} <span>{item.itemNo}</span>{" "}
                 </h2>
@@ -59,7 +59,7 @@ const Category = ({ data }) => {
                   <img className="image" src={item.profile}></img>
                 </div>
               </div>
-            </>
+            </div>
           );
         })}
         <AddButton />

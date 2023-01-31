@@ -1,6 +1,6 @@
 import React from "react";
 import { RxCross1 } from "react-icons/rx";
-import Sort from "./Sort";
+
 
 const Action = ({ handle }) => {
   const action = [
@@ -20,9 +20,9 @@ const Action = ({ handle }) => {
         <RxCross1 onClick={handle}></RxCross1>
       </div>
       <div className="sort-2">
-        {action.map((item) => {
+        {action.map((item,index) => {
           return (
-            <p onClick={handle} key={item.id}>
+            <p onClick={handle} key={index}>
               {item.value}{" "}
             </p>
           );

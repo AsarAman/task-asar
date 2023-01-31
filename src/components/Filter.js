@@ -17,9 +17,9 @@ const Filter = ({ data, handle, text }) => {
           return (
             <div className="h3-div" key={index}>
               <h3>{name}</h3>
-              {categories.map((item) => {
+              {categories.map((item, index) => {
                 return (
-                  <div className="p-div">
+                  <div key={index} className="p-div">
                     <p className={item.class} key={item.id}>
                       {" "}
                       <input type="checkbox"></input>{" "}

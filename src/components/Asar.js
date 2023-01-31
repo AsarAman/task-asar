@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import AddButton from "./AddButton";
-import AddCard from "./AddCard";
-import Sort from "./Sort";
-import { action, filter, sideFil } from "@/data/data";
+
+
+import {  filter } from "@/data/data";
 import Action from "./Action";
 import Filter from "./Filter";
 
@@ -18,8 +17,8 @@ const Asar = ({ data, componentToPass, className }) => {
       <div className="test parent-div">
         {data.map((item, index) => {
           return (
-            <>
-              <div key={index} className="whole-block">
+            <div key={index}>
+              <div  className="whole-block">
                 <h2>
                   {item.name} <span>{item.itemNo}</span>{" "}
                 </h2>
@@ -55,7 +54,7 @@ const Asar = ({ data, componentToPass, className }) => {
                   <img className="image" src={item.profile}></img>
                 </div>
               </div>
-            </>
+            </div>
           );
         })}
         {componentToPass}

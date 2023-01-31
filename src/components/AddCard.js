@@ -38,9 +38,9 @@ const AddCard = () => {
       <input type="text" placeholder="Enter Project" />
       {open && (
         <div className="options">
-          {select.map((item) => {
+          {select.map((item, index) => {
             return (
-              <p key={item.id} className={item.class}>
+              <p key={index} className={item.class}>
                 {item.value}
               </p>
             );

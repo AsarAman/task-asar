@@ -1,9 +1,9 @@
 import React from "react";
 import TopMain from "./TopMain";
 import { backlogData } from "@/data/data";
-import { todos, review } from "@/data/data";
+import { todos} from "@/data/data";
 import Work from "./Work";
-import Category from "./Category";
+
 
 const Main = () => {
   console.log(todos);
