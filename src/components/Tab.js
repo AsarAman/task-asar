@@ -39,7 +39,7 @@ const Tab = ({ title,content}) => (
                  <img className="image" src={item.profile}></img>
                </div>
                <div className='tab-bottom'>
-                <img className='image' src={item.profile}></img>
+                <img className='image' alt='asar' src={item.profile}></img>
                 <span>{item.desc}</span>
                </div>
 

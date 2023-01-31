@@ -46,7 +46,7 @@ const Pin = ({ data }) => {
               </div>
               <div className="bottom-div">
                 <span className="date">{item.date}</span>
-                <img className="image" src={item.profile}></img>
+                <img className="image" alt="asar" src={item.profile}></img>
               </div>
             </div>
           );

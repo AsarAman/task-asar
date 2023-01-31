@@ -56,7 +56,7 @@ const Category = ({ data }) => {
                 </div>
                 <div className="bottom-div">
                   <span className="date">{item.date}</span>
-                  <img className="image" src={item.profile}></img>
+                  <img className="image" alt="syed" src={item.profile}></img>
                 </div>
               </div>
             </div>

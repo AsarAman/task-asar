@@ -50,19 +50,19 @@ const TopMain = () => {
           </div>
           <div className="images-div">
             <div className="img">
-              <img className="image" src="pic.jpg" />
+              <img className="image" alt="img" src="pic.jpg" />
               <span className="image-text">12</span>
             </div>
             <div className="img">
-              <img className="image" src="pic.jpg" />
+              <img className="image" alt="img" src="pic.jpg" />
               <span className="image-text">13</span>
             </div>
             <div className="img">
-              <img className="image" src="pic.jpg" />
+              <img className="image" alt="img" src="pic.jpg" />
               <span className="image-text">11</span>
             </div>
             <div className="img">
-              <img className="image" src="pic.jpg" />
+              <img className="image" alt="img" src="pic.jpg" />
               <span className="image-text">14</span>
             </div>
           </div>

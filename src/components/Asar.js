@@ -51,7 +51,7 @@ const Asar = ({ data, componentToPass, className }) => {
                 <span className="icon-1">{item.icon1}</span>
                 <div className="bottom-div">
                   <span className="date">{item.date}</span>
-                  <img className="image" src={item.profile}></img>
+                  <img className="image" alt="as" src={item.profile}></img>
                 </div>
               </div>
             </div>

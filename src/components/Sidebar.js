@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { AiOutlineUserAdd } from "react-icons/ai";
@@ -14,11 +14,8 @@ import { IoIosArrowBack } from "react-icons/io";
 
 
 const Sidebar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggleSidebar = () => {
-    setIsOpen(!isOpen);
-    console.log("hello");
-  };
+ 
+  
   const sidebarItems = [
     { id: 1, text: "dashboard", icon: <VscDashboard /> },
     { id: 2, text: "workflow", icon: <FcWorkflow /> },
@@ -57,10 +54,10 @@ const Sidebar = () => {
 
       <div>
         <ul>
-          {sidebarItems.map((item) => {
-            const { id, text, icon } = item;
+          {sidebarItems.map((item,index) => {
+            const {  text, icon } = item;
             return (
-              <div className="sidebar-item" key={id}>
+              <div className="sidebar-item" key={index}>
                 <span>{icon}</span>
                 <p>{text}</p>
               </div>
